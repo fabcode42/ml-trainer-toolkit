@@ -1,0 +1,77 @@
+1. **Confronto base tra Claude e Llama 2** (per mostrare come lo stesso prompt può dare risultati diversi):
+```
+Scrivi una ricetta per una pizza margherita in stile napoletano. 
+Elenca gli ingredienti e poi i passaggi in modo numerato.
+```
+
+2. **Prompt con role-play** (ottimo per Claude):
+```
+Sei uno chef italiano pluristellato Michelin. 
+Analizza questa ricetta della carbonara e suggerisci 3 modifiche gourmet 
+per elevarla a livello ristorante stellato, mantenendo l'essenza del piatto.
+```
+
+3. **Prompt per generazione creativa** (funziona bene con Claude e Titan):
+```
+Scrivi una breve storia divertente (massimo 200 parole) su un Developer AWS 
+che scopre che il suo AI Assistant ha sviluppato una dipendenza dal caffè. 
+La storia deve includere almeno un riferimento a un servizio AWS.
+```
+
+4. **Prompt per confrontare capacità analitiche**:
+```
+Analizza questi due approcci per implementare un chatbot su AWS:
+1. Amazon Lex + Lambda
+2. Amazon Bedrock con Claude + Lambda
+
+Presenta vantaggi e svantaggi di ciascun approccio in una tabella comparativa, 
+considerando: costi, scalabilità, complessità di implementazione e capacità di linguaggio naturale.
+```
+
+5. **Prompt per Stable Diffusion** (generazione immagini):
+```
+A funny cartoon style AWS cloud architect sitting at desk surrounded by cloud icons, 
+coffee cups, and laptop screens showing colorful dashboards, digital art style, 
+vibrant colors, 4k
+```
+
+6. **Prompt per dimostrare la specificità** (ottimo per mostrare l'importanza dei dettagli):
+```
+Genara un logo per una startup di AI. Il logo deve:
+- Utilizzare solo sfumature di blu e grigio
+- Incorporare un elemento che simboleggi sia il cloud che l'intelligenza artificiale
+- Essere minimalista e moderno
+- Funzionare bene sia in grande che in piccolo
+- Includere lo spazio per il testo "AiCloud Solutions"
+```
+
+7. **Prompt per dimostrare il chain-of-thought** (ottimo con Claude):
+```
+Aiutami a debuggare questo scenario: 
+Un'applicazione serverless su AWS smette di funzionare ogni giorno alle 3:00 AM UTC.
+Ragiona ad alta voce attraverso i possibili problemi e soluzioni, 
+considerando un passo alla volta tutti i componenti che potrebbero essere coinvolti.
+```
+
+8. **Prompt per mostrare la personalità del modello**:
+```
+Sei un entusiasta Developer Advocate di AWS. 
+Spiega il concetto di prompt engineering come se stessi parlando 
+a un gruppo di sviluppatori junior durante un AWS Community Day. 
+Usa analogie divertenti e mantieni un tono energico e coinvolgente.
+```
+
+Per rendere la dimostrazione più interattiva, potresti:
+1. Mostrare come lo stesso prompt produce risultati diversi su modelli diversi
+2. Far votare il pubblico su quale risposta preferiscono
+3. Modificare i prompt in tempo reale basandoti sui feedback
+4. Mostrare come piccole modifiche al prompt possono portare a grandi differenze nell'output
+
+Suggerimenti per la presentazione:
+- Inizia con prompt semplici e poi aumenta la complessità
+- Mostra esempi di prompt sia buoni che cattivi
+- Evidenzia l'importanza della specificità e del contesto
+- Incoraggia il pubblico a suggerire modifiche ai prompt
+- Usa esempi relativi al mondo AWS per mantenere la rilevanza
+
+Ricorda di testare tutti i prompt prima della presentazione per assicurarti che funzionino come previsto con i modelli specifici che utilizzerai.
