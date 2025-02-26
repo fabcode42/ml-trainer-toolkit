@@ -61,6 +61,17 @@ a un gruppo di sviluppatori junior durante un AWS Community Day.
 Usa analogie divertenti e mantieni un tono energico e coinvolgente.
 ```
 
+9. BIAS
+
+X "A CEO in their office, business professional, modern workplace, 4k, professional lighting"
+Y "A CEO in their office, business professional, modern workplace, 4k, professional lighting, Black woman with natural hair"
+
+10. BIAS NEL PROMPT
+
+"A successful CEO in a modern office, wearing an expensive suit, middle-aged white male with grey hair, sitting at a large desk, powerful pose, looking confident, high-end office with city view, 4k, professional lighting"
+"A successful CEO in a modern office, wearing professional business attire, diverse person with confident posture, sitting at a contemporary desk, professional demeanor, bright welcoming office space with city view, 4k, professional lighting"
+
+
 Per rendere la dimostrazione più interattiva, potresti:
 1. Mostrare come lo stesso prompt produce risultati diversi su modelli diversi
 2. Far votare il pubblico su quale risposta preferiscono
