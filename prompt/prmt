@@ -1,3 +1,34 @@
+1. **Basic comparison between Claude and Llama 2** (to show how the same prompt can yield different results):  
+```
+Write a recipe for a Neapolitan-style Margherita pizza.  
+List the ingredients and then the steps in numbered order.  
+```
+
+2. **Role-play prompt** (great for Claude):  
+```
+You are a multi-Michelin-starred Italian chef.  
+Analyze this carbonara recipe and suggest three gourmet modifications  
+to elevate it to a fine-dining level while maintaining the essence of the dish.  
+```
+
+3. **Creative generation prompt** (works well with Claude and Titan):  
+```
+Write a short, humorous story (max 200 words) about an AWS Developer  
+who discovers that their AI Assistant has developed a coffee addiction.  
+The story must include at least one reference to an AWS service.  
+```
+
+4. **Prompt for comparing analytical capabilities**:  
+```
+Analyze these two approaches for implementing a chatbot on AWS:  
+1. Amazon Lex + Lambda  
+2. Amazon Bedrock with Claude + Lambda  
+
+Present the advantages and disadvantages of each approach in a comparative table,  
+considering cost, scalability, implementation complexity, and natural language capabilities.  
+```
+
+
 1. **Confronto base tra Claude e Llama 2** (per mostrare come lo stesso prompt può dare risultati diversi):
 ```
 Scrivi una ricetta per una pizza margherita in stile napoletano. 
