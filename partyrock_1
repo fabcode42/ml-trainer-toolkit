@@ -1,0 +1,41 @@
+💡 Demo Title: "Build an AI Business Advisor in 5 Minutes"
+🧑‍🏫 Goal:
+
+Show how a manager can build an AI-powered app that gives business advice based on a challenge or goal they input.
+🪜 Step-by-Step Live Demo Script (English)
+🟢 Step 1: Intro (say this out loud)
+
+    “Let’s see how easy it is to build a working AI app without any coding, using Amazon PartyRock. We’ll create a simple Business Advisor that gives strategic suggestions based on a business goal or challenge.”
+
+🟡 Step 2: Go to https://partyrock.aws
+
+    Log in with your AWS or Amazon account.
+
+🟢 Step 3: Click "Create an App"
+🟡 Step 4: Enter your prompt in the textbox
+
+Here’s the exact prompt to paste:
+
+    “Create an app that asks the user to describe a business challenge or goal, and then provides three pieces of strategic advice tailored to that input. Keep the tone professional and concise.”
+
+🟢 Step 5: Click “Generate App”
+
+    Wait a few seconds for the app to be generated.
+
+🟡 Step 6: Test it
+
+    Try with:
+
+    "We want to expand into a new international market but don’t have brand recognition."
+
+    Show the output live. Highlight how smart and contextual it is.
+
+🟢 Step 7: Customize (optional but powerful to show)
+
+    Rename the app: “AI Business Advisor”
+
+    Change the background color or add an icon (for fun / branding)
+
+    Explain how you could add more features with natural language:
+
+    “Add a summary at the end that recaps the advice in bullet points.”
