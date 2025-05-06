@@ -1,0 +1,94 @@
+Absolutely! Here's a structured set of example prompts you can use to **demonstrate different prompting techniques**—**Zero-shot**, **Few-shot**, **Chain-of-Thought (CoT)**, and **Tree-of-Thought (ToT)**—along with brief explanations for each.
+
+---
+
+### 🧠 1. **Zero-Shot Prompting**
+
+> **Definition:** You give the model **only the task**, with no examples or reasoning steps. It relies entirely on its pretraining to respond.
+
+**Prompt Example:**
+
+```
+Translate the following sentence into French: "The weather is nice today."
+```
+
+---
+
+### 🧠 2. **Few-Shot Prompting**
+
+> **Definition:** You give the model **a few examples** to guide it on how to perform the task. This improves consistency and format.
+
+**Prompt Example:**
+
+```
+Translate the following sentences into French:
+
+English: "I am happy."  
+French: "Je suis heureux."
+
+English: "She likes music."  
+French: "Elle aime la musique."
+
+English: "The weather is nice today."  
+French:
+```
+
+---
+
+### 🧠 3. **Chain-of-Thought (CoT) Prompting**
+
+> **Definition:** You ask the model to **explain its reasoning step by step** before arriving at an answer. This is especially helpful for **math or logic problems**.
+
+**Prompt Example:**
+
+```
+If a train travels at 60 miles per hour for 3 hours, how far does it go?  
+Let's think step by step.
+```
+
+Expected Output:
+
+```
+If the train travels at 60 miles per hour, and it travels for 3 hours,  
+then the distance is speed × time = 60 × 3 = 180 miles.  
+So, the train goes 180 miles.
+```
+
+---
+
+### 🧠 4. **Tree-of-Thought (ToT) Prompting**
+
+> **Definition:** The model **generates multiple solution paths**, evaluates them, and then selects or combines the best. Useful for **complex reasoning or planning**.
+
+**Prompt Example (simplified ToT):**
+
+```
+You are helping plan a weekend getaway. Generate 3 different options with pros and cons for each. Then pick the best one based on fun and cost.
+```
+
+Expected Output:
+
+```
+Option 1: Beach trip – Fun, relaxing, but hotel costs are high.  
+Option 2: Camping – Cheap and adventurous, but weather might be bad.  
+Option 3: City tour – Cultural and convenient, but can be crowded.
+
+Best Option: City tour – Balanced in cost and fun with fewer risks.
+```
+
+---
+
+### 🧪 Bonus Idea: Try all four styles on the **same core task**, like:
+
+> “Come up with a new product idea for remote workers.”
+
+And observe:
+
+* Zero-shot: Straight idea.
+* Few-shot: A few example product ideas first.
+* CoT: Step-by-step creative thinking.
+* ToT: Multiple ideas → pros/cons → final selection.
+
+---
+
+Would you like a slide layout or visual table for this too?
