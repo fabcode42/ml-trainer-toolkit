@@ -1,0 +1,63 @@
+### 🔍 Explanation with Analogy
+
+**Imagine you're at an ice cream shop** with **100 different flavors**, and you're asking the shop assistant (the AI) to choose a flavor for you. Here's how the different parameters affect the decision:
+---
+
+#### 🍦 Top-k (e.g., Top-k = 5)
+
+> "Only consider the top 5 most popular flavors, and pick randomly from them."
+
+* Limits the assistant to a fixed number of choices (k).
+* Encourages variety, but only from the **most likely** options.
+* Good when you want **controlled randomness**.
+---
+
+#### 🍦 Top-p (e.g., Top-p = 0.9, a.k.a. nucleus sampling)
+
+> "Consider the **smallest set** of top flavors whose combined popularity is at least 90%, and pick randomly from them."
+
+* More dynamic than Top-k.
+* The number of options can vary—sometimes it's 3, sometimes it's 10.
+* Great for **more natural creativity** while staying within likely bounds.
+---
+
+#### 🔥 Temperature (e.g., Temperature = 0.7)
+
+> "How adventurous should the assistant be when choosing?"
+
+* Low temp (\~0.2): Conservative, always picks the safest or most likely option.
+* High temp (\~1.0): More exploratory, willing to pick less likely options.
+* Think of it like how **decisive or wild** the assistant is feeling.
+
+--
+
+### 💬 Example Prompt for a Session Comparison
+
+You can use this prompt to run comparisons between **Claude 3.7** and **DeepSeek**, varying the sampling settings:
+
+---
+
+**Prompt:**
+
+```
+Tell me a short bedtime story for a child that features a robot and a magical forest. Make it imaginative and fun, but still easy to understand.
+```
+---
+
+**Instructions:**
+Run the exact same prompt across Claude 3.7 and DeepSeek with different sampling settings:
+
+1. **Top-k = 5, Temperature = 0.7**
+2. **Top-p = 0.9, Temperature = 0.7**
+3. **Top-p = 0.95, Temperature = 1.0** (more creative setting)
+4. **Top-k = 1, Temperature = 0.2** (deterministic, "safe" setting)
+
+---
+### 🧪 What to Observe
+
+* How do the stories change?
+* Which one feels more predictable or more creative?
+* Which model handles imagination or structure better?
+* Which settings lead to more surprising ideas?
+
+
