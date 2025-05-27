@@ -1,0 +1,106 @@
+
+
+# 🚀 Prompt Engineering Examples for Generative AI on AWS Bedrock
+
+**Live Demos using: Titan, Claude 3, and DeepSeek**  
+📍 _Location: In-person workshop in Prague_  
+🎯 _Audience: Primarily developers, possibly mixed (business & tech)_
+
+This guide includes real-world prompt engineering examples to demonstrate the capabilities and differences between various foundation models available in AWS Bedrock. These prompts are designed to be showcased live using the Bedrock Playground.
+
+---
+
+## 1. ✍️ Summarization & Rephrasing (Business Tone)
+
+```text
+Summarize the following technical document into a concise executive summary suitable for senior management. Maintain a professional and clear tone.
+
+---
+[Paste any technical AWS architecture or whitepaper excerpt, e.g., 200–300 words]
+
+🧠 Purpose: Highlights how Claude 3 handles tone and clarity. Titan offers brevity. DeepSeek often provides structured summaries.
+2. 💡 Creative Ideation (Startup Focus)
+
+Generate a unique startup idea in the sustainability space. Include:
+- A name
+- A one-sentence value proposition
+- A brief description of the target market
+- A monetization strategy
+
+Be original but realistic, suitable for a European audience.
+
+🧠 Purpose: Great for demonstrating model creativity and structure. Claude excels in concept richness, DeepSeek in clarity.
+3. 💻 Coding Task: Python Function + Unit Test
+
+Write a Python function that filters out all non-prime numbers from a list of integers.
+Then write a set of unit tests using `unittest` to verify the function works correctly.
+Use clean, readable code and include comments where appropriate.
+
+🧠 Purpose: DeepSeek generally excels here. Titan performs well with direct tasks. Claude explains logic nicely.
+4. 🎯 Prompt Optimization Demo (Before vs. After)
+➖ Basic Prompt
+
+Write a product description.
+
+➕ Optimized Prompt
+
+Write a 150-word marketing description for a smart home energy-saving device.
+Use an informal yet professional tone, target 25–40-year-old urban professionals in Europe,
+and focus on environmental and cost-saving benefits.
+
+🧠 Purpose: Perfect for showing the importance of specificity. All models benefit from prompt refinement.
+5. 🧠 Few-Shot Classification Task (Supervised Prompt)
+
+Classify the following customer feedback into one of these categories: `Positive`, `Negative`, or `Neutral`.
+Examples:
+- "I love how fast the app is!" → Positive
+- "The UI is confusing and hard to use." → Negative
+- "It works as expected." → Neutral
+
+Now classify this feedback:
+"The latest update improved speed, but there are still occasional crashes."
+
+🧠 Purpose: Shows how models apply patterns from few-shot examples. Claude is particularly strong here.
+6. 🗂️ Structured Output Formatting
+
+Extract structured information from the following paragraph and output it in JSON format.
+Include fields: `Name`, `Role`, `Company`, `Key Achievement`.
+
+Text:
+"Anna Kowalska, a senior data scientist at Novagen in Prague, led the development of a new fraud detection model that reduced false positives by 45%."
+
+🧠 Purpose: Ideal to compare JSON formatting and accuracy across models.
+🧪 Bonus: Prompt Pitfalls
+Vague Prompt
+
+Explain cloud security.
+
+Improved Prompt
+
+Explain three common AWS cloud security threats and how to mitigate each,
+using simple language suitable for business stakeholders.
+
+🧠 Purpose: Teaches how vague prompts lead to vague outputs. Demonstrates the power of good scoping.
+✅ How to Use These Prompts in Class
+
+    Demo each prompt live in Bedrock Playground with Titan, Claude 3, and DeepSeek.
+
+    Ask the audience:
+
+        Which result is most useful?
+
+        How could the prompt be improved?
+
+    Invite iterations: Try student suggestions live.
+
+    Discuss real-world use cases: Chatbots, automation, summarization, dev support, etc.
+
+📝 License
+
+Feel free to reuse or remix these prompts in your own workshops. Attribution welcome, but not required.
+
+
+
+
+
+
