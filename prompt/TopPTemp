@@ -1,0 +1,9 @@
+Write a story opening about a detective
+
+TopP 0.1
+Temperature 0.1
+
+and then
+
+TopP max
+Temperature 1
